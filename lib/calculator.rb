@@ -3,7 +3,7 @@ class Calculator
     args.sum
   end
 
-  def subtract
+  def subtract(a, b, c = 0)
+    a - b - c
   end
-  
 end
